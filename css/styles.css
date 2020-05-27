@@ -6,7 +6,6 @@
 .row-content {
     margin:0px auto;
     padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
     min-height:400px;
 }
 
@@ -36,4 +35,47 @@ address{
 body{
     padding:50px 0px 0px 0px;
     z-index:0;
+}
+
+.Table_head{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.mar{
+    border: ridge 0.5px rgb(172, 169, 169);
+    border-radius: 5px;
+}
+#butt {
+    color: black;
+    text-decoration: none;
+}
+
+#butt:hover, #butt:focus {
+    color: black;
+    text-decoration: none;
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 300px;
+  
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
